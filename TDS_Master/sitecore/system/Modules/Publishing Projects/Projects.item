@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {5900C9F9-64FE-4544-A2E2-73F31B688AF6}
+database: master
+path: /sitecore/system/Modules/Publishing Projects/Projects
+parent: {003B5F72-5A96-49B5-BB64-7F90AF99997C}
+name: Projects
+master: {00000000-0000-0000-0000-000000000000}
+template: {D2A33F8C-4C43-48F5-BDAF-A68395831F9E}
+templatekey: Project Folder
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{D2A33F8C-4C43-48F5-BDAF-A68395831F9E}|{E0A3B8FB-D5D4-4EA9-B4BC-EA8B41F541C6}
+----version----
+language: en
+version: 1
+revision: cc6b7c0a-0145-44db-a358-62f2186ed7b5
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121116T180434
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cc6b7c0a-0145-44db-a358-62f2186ed7b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160523T200850Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

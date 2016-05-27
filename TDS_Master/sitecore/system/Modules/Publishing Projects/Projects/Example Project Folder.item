@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {BB3A8C7C-B872-4F07-A265-9611E6857985}
+database: master
+path: /sitecore/system/Modules/Publishing Projects/Projects/Example Project Folder
+parent: {5900C9F9-64FE-4544-A2E2-73F31B688AF6}
+name: Example Project Folder
+master: {00000000-0000-0000-0000-000000000000}
+template: {D2A33F8C-4C43-48F5-BDAF-A68395831F9E}
+templatekey: Project Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 461c6e4c-c09c-4ce1-9e32-65c37cd41cf3
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121116T180501
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+461c6e4c-c09c-4ce1-9e32-65c37cd41cf3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160525T235323Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
