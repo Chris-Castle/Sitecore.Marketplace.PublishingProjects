@@ -1,3 +1,18 @@
-For more details go to http://marketplace.sitecore.net/en/Modules/Project_Items.aspx
+This project was influenced by http://marketplace.sitecore.net/en/Modules/Project_Items.aspx
 
-You can download the installation package from https://github.com/johnpen/SharedSource.Projects/blob/master/Package/Project%20Items-0.95.zip?raw=true
+Description:
+The Publishing Projects Module allows authors to create a group of items (versions) and control the publishing restrictions in one place.
+
+Use Case:
+The use case is for a new campaign or product.  In releasing a product you might have a product item, a banner, a news release, etc.  
+These are in various areas of the tree.  The project module allows you to create a project that will control the release date for all of the items in one place.
+
+Configuration:
+There is a base template called project.  Any items that will be placed in a project need to inherit from this template.
+
+Settings:
+The module is grouping together a list of item versions.  Typically, future versions would be removed from the project.  You can have them included though through a setting in the configuration file.
+
+Usage:
+Use the ribbon buttons in Content Editor and Experience Editor to create projects, add items to projects, and view the items in the current project.  All of the items added to the porject will have the release date specified for the project.  Simply update the release date to change the publishing restrictions on all of the item versions in the project.
+Projects are stored in "/system/modules/Publiishing Projects/Projects"
