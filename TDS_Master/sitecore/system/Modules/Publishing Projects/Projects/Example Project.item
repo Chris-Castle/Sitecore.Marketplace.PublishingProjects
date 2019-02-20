@@ -8,6 +8,7 @@ name: Example Project
 master: {00000000-0000-0000-0000-000000000000}
 template: {E0A3B8FB-D5D4-4EA9-B4BC-EA8B41F541C6}
 templatekey: Project Details
+created: 20190124T212447Z
 
 ----field----
 field: {AE985D54-1455-4095-9CC1-B5FB8BA7F795}
@@ -22,7 +23,28 @@ name: Release Date
 key: release date
 content-length: 16
 
-20160710T073000Z
+20190122T090000Z
+----field----
+field: {A2F4B83D-598A-4571-B54D-6941C586B466}
+name: Publish Together
+key: publish together
+content-length: 1
+
+1
+----field----
+field: {41A59B7E-658E-47B5-8EAD-17836DBBE140}
+name: Holding Workflow State
+key: holding workflow state
+content-length: 38
+
+{13473C8E-1F7A-4A9A-BEAC-808B292B8FF9}
+----field----
+field: {3ADA2F5F-5F53-4B8E-A77E-A8B1DEAA4976}
+name: Final Workflow State
+key: final workflow state
+content-length: 38
+
+{71A35048-17D3-4815-A2AE-33488BFA5E26}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -33,33 +55,33 @@ office/32x32/elements_hierarchy.png
 ----version----
 language: en
 version: 1
-revision: 3e7f32fa-48a8-4cd6-aa23-765497c63807
+revision: 41ba32a1-f8da-4c62-88fb-9953d99bd4ad
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20121120T170728
+20121120T230728Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-3e7f32fa-48a8-4cd6-aa23-765497c63807
+41ba32a1-f8da-4c62-88fb-9953d99bd4ad
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160525T235338Z
+20190131T173442Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

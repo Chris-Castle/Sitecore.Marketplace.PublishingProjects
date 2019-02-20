@@ -8,6 +8,7 @@ name: Project
 master: {00000000-0000-0000-0000-000000000000}
 template: {8F3D8F9B-2D76-4ACE-803F-35415D2B230A}
 templatekey: Chunk
+created: 20190124T212837Z
 
 ----field----
 field: {8BB9A5E3-CAE8-49C6-B830-258A51D970C9}
@@ -27,13 +28,10 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 183
+content-length: 168
 
-<r>
-  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-    <r id="{B8CC30CD-725A-4353-9EA6-CD9832CB3996}" par="Id=Chunk" uid="{09D118B8-E84D-4638-B4B7-4DD3527CFC3D}" />
-  </d>
-</r>
+<r><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r id="{B8CC30CD-725A-4353-9EA6-CD9832CB3996}" par="Id=Chunk" uid="{09D118B8-E84D-4638-B4B7-4DD3527CFC3D}" /></d></r>
+
 ----field----
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security

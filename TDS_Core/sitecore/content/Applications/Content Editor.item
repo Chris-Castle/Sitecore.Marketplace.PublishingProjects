@@ -8,6 +8,7 @@ name: Content Editor
 master: {1F0770EA-8B77-4110-91AA-CC00DEE102DD}
 template: {EB06CEC0-5E2D-4DC4-875B-01ADCC577D13}
 templatekey: Application
+created: 20181101T095340Z
 
 ----field----
 field: {F9814588-762B-4D57-932D-2D6DE100A59A}
@@ -103,7 +104,7 @@ ar|sitecore\Sitecore Client Designing|pd|+item:read|pe|+item:read|ar|sitecore\Si
 ----version----
 language: da
 version: 1
-revision: 9d81e618-2f3d-4af6-af71-062d666a11ba
+revision: b383b26d-f99a-4b31-aa0e-7ac53075efd4
 
 ----field----
 field: {67B6378B-C9F1-47C7-9CAC-BFA79B0727D9}
@@ -139,7 +140,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162535Z
+20181101T100322Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -153,14 +154,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9d81e618-2f3d-4af6-af71-062d666a11ba
+b383b26d-f99a-4b31-aa0e-7ac53075efd4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162535Z
+20181101T100322Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -171,7 +172,7 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: 8ba1c8b2-4491-441e-ae4e-0128a8b53e8e
+revision: 80702f15-3d10-4616-9826-e5edb43da321
 
 ----field----
 field: {67B6378B-C9F1-47C7-9CAC-BFA79B0727D9}
@@ -207,7 +208,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162701Z
+20181101T100622Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -221,14 +222,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8ba1c8b2-4491-441e-ae4e-0128a8b53e8e
+80702f15-3d10-4616-9826-e5edb43da321
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162701Z
+20181101T100622Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -300,7 +301,7 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: 47b28fc4-c188-4c6c-92dd-66406d626f12
+revision: 3579ea19-fc51-41e4-b56f-e475e76b3b64
 
 ----field----
 field: {67B6378B-C9F1-47C7-9CAC-BFA79B0727D9}
@@ -336,7 +337,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162821Z
+20181101T100901Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -350,14 +351,82 @@ name: __Revision
 key: __revision
 content-length: 36
 
-47b28fc4-c188-4c6c-92dd-66406d626f12
+3579ea19-fc51-41e4-b56f-e475e76b3b64
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162821Z
+20181101T100901Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: zh-CN
+version: 1
+revision: d7e868b2-2203-4ffb-9410-887f07e07437
+
+----field----
+field: {67B6378B-C9F1-47C7-9CAC-BFA79B0727D9}
+name: Display name
+key: display name
+content-length: 5
+
+内容编辑器
+----field----
+field: {14DCA483-AAC7-4D87-AE27-3163D21798B7}
+name: Tool tip
+key: tool tip
+content-length: 4
+
+编辑内容
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+内容编辑器
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T101144Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d7e868b2-2203-4ffb-9410-887f07e07437
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181101T101144Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

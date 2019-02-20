@@ -8,7 +8,22 @@ name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
 template: {E0A3B8FB-D5D4-4EA9-B4BC-EA8B41F541C6}
 templatekey: Project Details
+created: 20190124T212425Z
 
+----field----
+field: {41A59B7E-658E-47B5-8EAD-17836DBBE140}
+name: Holding Workflow State
+key: holding workflow state
+content-length: 38
+
+{13473C8E-1F7A-4A9A-BEAC-808B292B8FF9}
+----field----
+field: {3ADA2F5F-5F53-4B8E-A77E-A8B1DEAA4976}
+name: Final Workflow State
+key: final workflow state
+content-length: 38
+
+{71A35048-17D3-4815-A2AE-33488BFA5E26}
 ----field----
 field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
 name: __Masters
@@ -19,7 +34,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 607b19ee-8ad0-4921-8212-bf32ccdff628
+revision: f6b26837-b14d-41c1-9636-f86717c0f770
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,18 +63,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-607b19ee-8ad0-4921-8212-bf32ccdff628
+f6b26837-b14d-41c1-9636-f86717c0f770
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 16
 
-20121010T155334:634854812141065984
+20190127T235509Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

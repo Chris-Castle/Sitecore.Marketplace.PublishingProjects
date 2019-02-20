@@ -8,6 +8,7 @@ name: Ribbons
 master: {00000000-0000-0000-0000-000000000000}
 template: {239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B}
 templatekey: Node
+created: 20181101T095340Z
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -33,7 +34,7 @@ content-length: 0
 ----version----
 language: da
 version: 1
-revision: 875c5f38-b691-4e8d-9112-7a735cd87c03
+revision: a7be8242-2f45-4b5a-9ab0-ca2e0890ded1
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -55,7 +56,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162519Z
+20181101T100251Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -69,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-875c5f38-b691-4e8d-9112-7a735cd87c03
+a7be8242-2f45-4b5a-9ab0-ca2e0890ded1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162519Z
+20181101T100251Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -87,7 +88,7 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: 8031924a-d806-4fd7-9f92-3ec91fcd6f44
+revision: f39405c7-9c63-4de2-85ad-749881deb620
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -109,7 +110,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162640Z
+20181101T100547Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -123,14 +124,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8031924a-d806-4fd7-9f92-3ec91fcd6f44
+f39405c7-9c63-4de2-85ad-749881deb620
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162640Z
+20181101T100547Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -202,7 +203,7 @@ content-length: 0
 ----version----
 language: ja-JP
 version: 1
-revision: 2b287e6d-7144-4ce8-af44-abc6da18cb1f
+revision: 3942604b-4c7d-4dc1-8f1d-6d8505629138
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -224,7 +225,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162801Z
+20181101T100813Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -238,14 +239,68 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2b287e6d-7144-4ce8-af44-abc6da18cb1f
+3942604b-4c7d-4dc1-8f1d-6d8505629138
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162801Z
+20181101T100813Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: zh-CN
+version: 1
+revision: 6056c7f7-ac69-4cf1-b4c5-b2b1d420f1c8
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 3
+
+功能区
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T101100Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6056c7f7-ac69-4cf1-b4c5-b2b1d420f1c8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181101T101100Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

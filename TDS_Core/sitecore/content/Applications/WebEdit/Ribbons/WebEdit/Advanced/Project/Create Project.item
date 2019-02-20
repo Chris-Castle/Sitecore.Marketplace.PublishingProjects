@@ -8,6 +8,7 @@ name: Create Project
 master: {00000000-0000-0000-0000-000000000000}
 template: {1DB34C92-03B0-4475-9A39-DA14E4D9D8FC}
 templatekey: Large Button
+created: 20190124T212942Z
 
 ----field----
 field: {D47ED548-84D5-4622-9886-5CC164727507}
@@ -41,13 +42,10 @@ content-length: 2
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 308
+content-length: 293
 
-<r>
-  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-    <r id="{6E177CB2-BBC1-486E-90E9-8C5E579A090B}" par="Id=SmallButton&amp;Click=trigger%3abutton%3aclick&amp;Command=AddProject&amp;PageCodeScriptFileName=%2fassets%2fspeak%2faddproject.js" uid="{DB646D19-1025-4E65-A74E-F95BE679F6B3}" />
-  </d>
-</r>
+<r><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r id="{6E177CB2-BBC1-486E-90E9-8C5E579A090B}" par="Id=SmallButton&amp;Click=trigger%3abutton%3aclick&amp;Command=AddProject&amp;PageCodeScriptFileName=%2fassets%2fspeak%2faddproject.js" uid="{DB646D19-1025-4E65-A74E-F95BE679F6B3}" /></d></r>
+
 ----field----
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security

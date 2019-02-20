@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sitecore.Marketplace.PublishingProjects</RootNamespace>
     <AssemblyName>Sitecore.Marketplace.PublishingProjects</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -22,6 +22,8 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,39 +46,40 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Sitecore.Client, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Sitecore.Client.dll</HintPath>
+      <HintPath>..\..\..\inetpub\wwwroot\launch910.sc\bin\Sitecore.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Sitecore.ContentSearch.dll</HintPath>
+      <HintPath>..\..\..\inetpub\wwwroot\launch910.sc\bin\Sitecore.ContentSearch.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.Linq, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Sitecore.ContentSearch.Linq.dll</HintPath>
+      <HintPath>..\..\..\inetpub\wwwroot\launch910.sc\bin\Sitecore.ContentSearch.Linq.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Sitecore.ExperienceEditor.dll</HintPath>
+      <HintPath>..\..\..\inetpub\wwwroot\launch910.sc\bin\Sitecore.ExperienceEditor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor.Speak, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+      <HintPath>..\..\..\inetpub\wwwroot\launch910.sc\bin\Sitecore.ExperienceEditor.Speak.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
+      <HintPath>..\..\..\inetpub\wwwroot\launch910.sc\bin\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\..\..\inetpub\wwwroot\launch910.sc\bin\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -84,20 +87,18 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\System.Web.Http.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\speak\addproject.js" />
@@ -112,6 +113,7 @@
     <Compile Include="Commands\AddNewProject.cs" />
     <Compile Include="Commands\ViewProjectItems.cs" />
     <Compile Include="Data.cs" />
+    <Compile Include="Handlers\ItemSaved\HandlePublishingTogether.cs" />
     <Compile Include="Handlers\ItemSaved\UpdatePublishingRestrictions.cs" />
     <Compile Include="Handlers\ItemVerisonAdded\ClearProjectField.cs" />
     <Compile Include="Helper.cs" />
@@ -129,7 +131,6 @@
   <ItemGroup>
     <Content Include="Readme" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="App_Config\include\zSitecore.Marketplace.PublishingProjects.config">
       <SubType>Designer</SubType>
